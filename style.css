@@ -1,112 +1,176 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+h1 {
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+}
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
+h2 {
+    font-family: "Quicksand"sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
-    <section class="colored-section" id="title">
-      <div class="container-fluid">
-         <nav class="navbar navbar-expand-lg navbar-dark">
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
 
-        <a class="navbar-brand" href="">tindog</a>
+p {
+    color: #8f8f8f;
+}
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+body {
+    font-family: 'Quicksand', sans-serif;
+}
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+/* Headings */
 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta">Download</a>
-            </li>
-          </ul>
+.big-heading {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
 
-        </div>
-      </nav>
-        <div class="row">
-          <div class="col-lg-6">
-             <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Download</button>
-          <button type="button" class="btn btn-outline-light"> <i class="fab fa-google-play"></i> Download</button>
-          </div>
-          <div class="col-lg-6">
-            <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
 
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="white-section" id="features">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="feature-box col-lg-4">
-            <i class="icon fas fa-check-circle fa-4x"></i>
-            <h3 class="feature-title">Easy to Use</h3>
-            <p>So easy to use, even your dog could do it.</p>
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.container-fluid {}
 
 
-          </div>
-           <div class="feature-box col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3 class="feature-title">Elite Clientele</h3>
-          <p>We have all the dogs, the greatest dogs.</p>
-        </div>
 
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-heart fa-4x"></i>
-          <h3 class="feature-title">Guaranteed to work.</h3>
-          <p>Find the love of your dog's life or your money back.</p>
-        </div>
-        </div>
-      </div>
-    </section>
-    <section class="colored-section">
-      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
-                      <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
 
-          </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span> </a>
-        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next"><span class="carousel-control-next-icon"></span></a>
-      </div>
-    </section>
-    <section class="colored-section" id="press">
-      <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-    </section>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-</html>
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Image Title */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+    font-size: 1.3rem;
+}
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.copy {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        transform: rotate(0);
+    }
+}
